@@ -10,10 +10,10 @@ app.get('/commits', async (req, res) => {
   const config = {
     headers: {
       'Content-type': 'application/json',
-      Authorization: 'Bearer ${token}'
+      Authorization: 'Bearer ${toke}'
     }
   }
-  await axios.get('https://api.github.com/repos/willmabm/midudev-bootcamp/commits', config)
+  await axios.get('https://api.github.com/repos/willmabm/take-home-test/commits', config)
     .then(response => {
       res.json(response.data)
     })
