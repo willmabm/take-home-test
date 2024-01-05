@@ -11,13 +11,15 @@ Application that consults the commits made in this repository
 npm install
 ```
 
-4. Once the install has been completed correctly, execute npm run start:api in the terminal, this will start the backend
+4. in the index file of the api folder, add the github token.
+
+5. Once the install has been completed correctly, execute npm run start:api in the terminal, this will start the backend
 
 ```bash
 npm run start:api
 ```
 
-5. Then run in another terminal npm run start:app this will start the frontend
+6. Then run in another terminal npm run start:app this will start the frontend
 
 ```bash
 npm run start:app
@@ -25,4 +27,4 @@ npm run start:app
 
 it is necessary that both are running
 
-6. Then go to http://localhost:3000
+7. Then go to http://localhost:3000
